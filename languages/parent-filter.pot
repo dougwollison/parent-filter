@@ -1,0 +1,46 @@
+# Copyright (C) 2016 Parent Filter
+# This file is distributed under the same license as the Parent Filter package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Parent Filter 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/parent-filter\n"
+"POT-Creation-Date: 2016-01-28 16:32:17+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: parent-filter.php:70
+msgid "Any Parent"
+msgstr ""
+
+#: parent-filter.php:73
+msgid "&mdash; None/Root &mdash;"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Parent Filter"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/dougwollison/parent-filter"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Simply adds parent filtering capability to hierarchal WordPress post types."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Doug Wollison"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://dougw.me"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid "parent filter, filter, parent, hierarchy"
+msgstr ""
