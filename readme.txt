@@ -15,7 +15,7 @@ Coming soon.
 
 == Installation ==
 
-1. Upload the contents of `parentfilter.tar.gz` to your `/wp-content/plugins/` directory
+1. Upload the contents of `parent-filter.tar.gz` to your `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Usage Documentation ==
@@ -24,7 +24,7 @@ Coming soon.
 
 == Changelog ==
 
-**Details on each release can be found [on the GitHub releases page](https://github.com/dougwollison/parentfilter/releases) for this project.**
+**Details on each release can be found [on the GitHub releases page](https://github.com/dougwollison/parent-filter/releases) for this project.**
 
 = 1.0 =
 Initial public release.

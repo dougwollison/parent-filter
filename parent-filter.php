@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Parent Filter
-Plugin URI: https://github.com/dougwollison/parentfilter
+Plugin URI: https://github.com/dougwollison/parent-filter
 Description: Simply adds parent filtering capability to hierarchal WordPress post types.
 Version: 1.0.0
 Author: Doug Wollison
 Author URI: http://dougw.me
 Tags: parent filter, filter, parent, hierarchy
 License: GPL2
-Text Domain: parentfilter
+Text Domain: parent-filter
 */
 
 // Setup the hooks only within the admin
@@ -53,7 +53,7 @@ function parentfilter_add_dropdown() {
 			'order'          => 'asc',
 			'selected'       => null,
 			// Identify the context of the query for 3rd parties
-			'plugin-context' => 'parentfilter',
+			'plugin-context' => 'parent-filter',
 		);
 
 		// Update the selected option if needed
@@ -67,10 +67,10 @@ function parentfilter_add_dropdown() {
 		// Print the dropdown
 		echo '<select name="post_parent" id="parent_filter">';
 			// Print the no filtering option
-			echo '<option value="">' . __( 'Any Parent', 'parentfitler' ) . '</option>';
+			echo '<option value="">' . __( 'Any Parent', 'parent-fitler' ) . '</option>';
 			// Print the 0 option for showing only top level posts
 			echo '<option value="0"' . ( $request['selected'] === '0' ? ' selected="selected"' : '' ) . '>' .
-				__( '&mdash; None/Root &mdash;', 'parentfilter' ) . '</option>';
+				__( '&mdash; None/Root &mdash;', 'parent-filter' ) . '</option>';
 			// Print the queried items
 			echo walk_page_dropdown_tree( $query->posts, 0, $request );
 		echo '</select>';
