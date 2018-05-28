@@ -27,7 +27,7 @@ if ( is_admin() ) {
  * @return array The modified whitelist.
  */
 function parentfilter_add_query_var( $vars ) {
-	$vars[] = 'post_parent';
+	$vars[] = 'post_ancestor';
 	return $vars;
 }
 
@@ -57,15 +57,15 @@ function parentfilter_add_dropdown() {
 		);
 
 		// Update the selected option if needed
-		if ( isset( $_GET['post_parent'] ) ) {
-			$request['selected'] = $_GET['post_parent'];
+		if ( isset( $_GET['post_ancestor'] ) ) {
+			$request['selected'] = $_GET['post_ancestor'];
 		}
 
 		// Run the query
 		$query = new WP_Query( $request );
 
 		// Print the dropdown
-		echo '<select name="post_parent" id="parent_filter">';
+		echo '<select name="post_ancestor" id="post_ancestor">';
 			// Print the no filtering option
 			echo '<option value="">' . __( 'Any Parent', 'parent-fitler' ) . '</option>';
 			// Print the 0 option for showing only top level posts
